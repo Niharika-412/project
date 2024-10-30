@@ -1,0 +1,60 @@
+
+/* This is comment line in css */
+/* SELECTOR(H1,H2,H6)--PROPERTY(COLOR,FONT SIZE,STYLE)--VALUE(RED,2PX) SYNTAX */
+/* 
+ELEMENT SELECTORS(h1,h2,h3,p)
+GROUP SELECTORS ((body) (h1,h2,p))
+ID SELECTORS 
+CLASS SELECTORS
+*/
+/*
+ID SELECTORS=WE WANT TO GIVE ID ATTRIBUTE TO H1 OR H2 LIKE TAGES THEN USE THAT IN CSS FILE LIKE
+ #THAT ID GIVE TAG ID NAME
+ ID IS UNIQUE
+*/
+/*
+*{
+    padding: 10px;
+    margin: 20px;
+}
+
+h1{
+    color: blue;
+}
+.two{
+    color: brown;
+}
+#three{
+    color: chartreuse;
+}
+/* ID> CLASS >ELEMEMTS(TAGS)
+*/
+/* RGB(RED GREEN BLUE)--VALUE-0 TO 255 
+OPACITY--LIES B/W 0 TO 1
+IT HELPS TO REDUCE COLOR AND INCREASE
+*/
+.two{
+    color: rgb(255,0,0);
+    background-color: black;
+}
+#three{
+    color: rgb(0,0,255);
+    background: black;
+}
+h1{
+    color: black;
+    background-color: rgb(255,255,255);
+}
+body{
+    background: lightpink;
+}
+.five{
+    color: rgb(0,0,240);
+    background: rgb(0,0,0,0.25);
+   
+}
+.six{
+    color: black;
+    background: rgb(255,255,255,0.50);
+
+}

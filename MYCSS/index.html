@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    /* Reset some default browser styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container for the header section */
+    .header {
+      background-color: #6a0dad; /* Purple background */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      position: relative;
+    }
+
+    /* Name and contact info section */
+    .contact-info {
+      display: flex;
+      align-items: center;
+      border: 2px solid orange;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .contact-info div {
+      margin-left: 10px;
+    }
+
+    .contact-info h2 {
+      margin-bottom: 5px;
+    }
+
+    /* Navigation Bar Styling */
+    .nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .nav a:hover {
+      font-weight: bold;
+      color: cyan;
+    }
+
+    /* Sample Text Styling */
+    .sample-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      color: cyan;
+      opacity: 0.2;
+      font-weight: bold;
+    }
+
+    /* About Me Section Styling */
+    .about-section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .about-section h1 {
+      font-size: 28px;
+      color: #6a0dad;
+      margin-bottom: 10px;
+    }
+
+    .about-section p {
+      font-size: 18px;
+      color: #333;
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    /* Recommendations Section Styling */
+    .recommendations-section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .recommendations-section h2 {
+      font-size: 28px;
+      color: #6a0dad;
+      margin-bottom: 10px;
+    }
+
+    .recommendations-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .recommendations-list li {
+      background-color: #f0f0f0;
+      padding: 15px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #333;
+      width: 80%;
+      text-align: left;
+      font-style: italic;
+    }
+
+    /* Leave a Recommendation Section */
+    .leave-recommendation {
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .leave-recommendation h3 {
+      font-size: 24px;
+      color: #6a0dad;
+      margin-bottom: 10px;
+    }
+
+    .leave-recommendation textarea {
+      width: 80%;
+      height: 100px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+      margin-bottom: 10px;
+    }
+
+    .leave-recommendation button {
+      background-color: #6a0dad;
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .leave-recommendation button:hover {
+      background-color: #5b0b9d;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <!-- Contact Info Section -->
+    <div class="contact-info">
+      <div>
+        <h2>NIHARIKA</h2>
+        <p>niHARIKA@jeemail.com</p>
+        <p>+1 345 676 4598</p>
+      </div>
+    </div>
+
+    <!-- Navigation Links -->
+    <nav class="nav">
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+    
+    <!-- Sample Text -->
+    <div class="sample-text">SAMPLE</div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <h1>About Me</h1>
+    <p>Hi, I'm NIHARIKA, a second-year B.Tech student at KL University, specializing in Computer Science. My journey in technology started with a passion for problem-solving and an endless curiosity about how things work.</p>
+    <p>At KL University, I'm developing a solid foundation in programming, algorithms, and data structures. I am particularly interested in web development and artificial intelligence, and I constantly strive to enhance my skills in these areas.</p>
+    <p>Beyond academics, I enjoy working on projects that challenge me to think creatively and apply my skills in new ways. My goal is to contribute to meaningful tech innovations that can make a positive impact in people's lives.</p>
+    <p>I'm excited to continue my journey in technology, and I'm always open to connecting with like-minded individuals for collaboration and knowledge sharing!</p>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section id="recommendations" class="recommendations-section">
+    <h2>Recommendations</h2>
+    <ul class="recommendations-list">
+      <li>"Niharika consistently demonstrates exceptional programming skills and a strong understanding of complex concepts. She is a quick learner and shows great initiative in her work." - Dr. A. Kumar, Professor at KL University</li>
+      <li>"Her dedication and commitment to her projects are outstanding. Niharika brings a unique perspective to each project, making her a valuable asset to any team." - S. Mehta, Team Lead at TechCorp Solutions</li>
+      <li>"I have been consistently impressed by Niharika's work ethic and her ability to tackle complex problems with innovative solutions." - R. Sharma, Senior Developer at CodeFlow Labs</li>
+      <li>"Niharika’s passion for technology and her continuous strive for improvement make her one of the brightest students in our department." - Prof. M. Rao, KL University</li>
+    </ul>
+  </section>
+
+  <!-- Leave a Recommendation Section -->
+  <section class="leave-recommendation">
+    <h3>Leave a Recommendation</h3>
+    <textarea placeholder="Write your recommendation here..."></textarea><br>
+    <button type="submit">Submit</button>
+  </section>
+
+</body>
+</html>
